@@ -1,17 +1,36 @@
 {
-  // 使用 IntelliSense 了解相关属性。 
+  // 使用 IntelliSense 了解相关属性。
   // 悬停以查看现有属性的描述。
   // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
-  {
-    "type": "node",
-    "request": "launch",
-    "name": "Launch Program",
-    "program": "${workspaceFolder}/15.三数之和.js",
-    "skipFiles": [
-      "<node_internals>/**"
-    ]
-  }
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "快速排序",
+      "program": "${workspaceFolder}/十大经典排序/快速排序.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "归并排序",
+      "program": "${workspaceFolder}/十大经典排序/归并排序.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "三数之和",
+      "program": "${workspaceFolder}/15.三数之和.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "电话号码的字母组合",
+      "program": "${workspaceFolder}/17.电话号码的字母组合.js",
+      "skipFiles": ["<node_internals>/**"]
+    }
   ]
 }
