@@ -31,6 +31,13 @@
       "name": "电话号码的字母组合",
       "program": "${workspaceFolder}/17.电话号码的字母组合.js",
       "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "有效的括号",
+      "program": "${workspaceFolder}/20.有效的括号.js",
+      "skipFiles": ["<node_internals>/**"]
     }
   ]
 }
