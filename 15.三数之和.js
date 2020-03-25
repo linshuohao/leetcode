@@ -16,7 +16,6 @@ var threeSum = function(nums) {
     return result;
   }
   nums.sort((a, b) => (a - b))
-  console.log("threeSum -> nums", nums)
   if (nums[0] > 0 || nums[len - 1] < 0) {
     return result;
   }

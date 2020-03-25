@@ -38,6 +38,20 @@
       "name": "有效的括号",
       "program": "${workspaceFolder}/20.有效的括号.js",
       "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "最长有效括号",
+      "program": "${workspaceFolder}/32.最长有效括号.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "最接近的三数之和",
+      "program": "${workspaceFolder}/16.最接近的三数之和.js",
+      "skipFiles": ["<node_internals>/**"]
     }
   ]
 }
