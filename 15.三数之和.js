@@ -20,6 +20,7 @@ var threeSum = function(nums) {
     return result;
   }
   for (let i = 0; i < nums.length - 2; i++) {
+    // 选c位
     const num = nums[i];
     if (num === nums[i - 1]) {
       continue;

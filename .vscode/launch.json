@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "index",
+      "program": "${workspaceFolder}/index.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "快速排序",
       "program": "${workspaceFolder}/十大经典排序/快速排序.js",
       "skipFiles": ["<node_internals>/**"]
@@ -16,6 +23,13 @@
       "request": "launch",
       "name": "归并排序",
       "program": "${workspaceFolder}/十大经典排序/归并排序.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "最长公共前缀",
+      "program": "${workspaceFolder}/14.最长公共前缀.js",
       "skipFiles": ["<node_internals>/**"]
     },
     {
@@ -51,6 +65,20 @@
       "request": "launch",
       "name": "最接近的三数之和",
       "program": "${workspaceFolder}/16.最接近的三数之和.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "在排序数组中查找元素的第一个和最后一个位置",
+      "program": "${workspaceFolder}/34.在排序数组中查找元素的第一个和最后一个位置.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "组合总和",
+      "program": "${workspaceFolder}/39.组合总和.js",
       "skipFiles": ["<node_internals>/**"]
     }
   ]
