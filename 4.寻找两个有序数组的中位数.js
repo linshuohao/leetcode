@@ -18,10 +18,10 @@ var findMedianSortedArrays = function(nums1, nums2) {
   while (iMin <= iMax) {
     let i = Math.floor((iMin + iMax) / 2),
       j = halfLen - i,
-      left1 = nums1[i - 1] || -Infinity,
-      left2 = nums2[j - 1] || -Infinity,
-      right1 = nums1[i] || Infinity,
-      right2 = nums2[j] || Infinity;
+      left1 = nums1[i - 1] !== undefined ? nums1[i - 1] : -Infinity,
+      left2 = nums2[j - 1] !== undefined ? nums2[j - 1] : -Infinity,
+      right1 = nums1[i] !== undefined ? nums1[i] : Infinity,
+      right2 = nums2[j] !== undefined ? nums2[j] : Infinity;
     if (left1 > right2) {
       iMax = i - 1; // i太大
     } else if (left2 > right1) {
